@@ -1,6 +1,6 @@
 //My first BMI-calculator
-var height = 1.85;
-var weight = 85;
-var bmi = weight/(height * height);
-var result = bmi;
+let height = 1.85;
+let weight = 85;
+const bmi = weight/(height * height);
+const result = bmi;
 console.log("BMI: ", result);
